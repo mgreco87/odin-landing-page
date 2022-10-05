@@ -130,6 +130,7 @@ img {
 
 .row {
     display: flex;
+    flex: auto;
     justify-content: space-around;
     margin: 10px;
 }
@@ -146,4 +147,27 @@ img {
     width: 300px;
     color: #1F2937;
     font-size: 16px;
+}
+
+.cont-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    align-items: center;
+    padding: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-caption {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: auto;
 }
